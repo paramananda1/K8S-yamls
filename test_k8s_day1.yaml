@@ -1,0 +1,15 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: day3
+  namespace: demo
+spec:
+        #  volumes:
+        #  - name: shared-data
+        #    emptyDir: {}
+  containers:
+  - name: day3
+    image: paramanandapati/day3
+        #    volumeMounts:
+        #    - name: shared-data
+        #      mountPath: /usr/share/nginx/html
